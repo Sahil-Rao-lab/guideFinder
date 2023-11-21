@@ -21,8 +21,8 @@ export default function Footer() {
                     <div className="footer-category">
                         <div className="category-heading">LATEST NEWS</div>
                         <ul>
-                            <li><Link href="/blogs">Blog</Link></li>
-                            <li><Link href="/events">Event</Link></li>
+                            <li><Link href="/Blogs">Blog</Link></li>
+                            <li><Link href="/Events">Event</Link></li>
                         </ul>
                     </div>
                     <div className="footer-category">

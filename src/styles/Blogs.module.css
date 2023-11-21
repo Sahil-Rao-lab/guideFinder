@@ -1,0 +1,46 @@
+
+.Container{
+    padding: 6rem;
+    background-color: white;
+}
+
+.bg_txt {
+    background-image: url(https://images.pexels.com/photos/680811/pexels-photo-680811.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-repeat: repeat;
+    background-attachment: fixed;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+    -webkit-font-smoothing: antialiased;
+    font-size: 7rem;
+}
+
+.small_txt {
+    color: #5e48f6;
+    font-size: .8rem;
+    font-weight: 100;
+}
+
+.blogsContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.blogsContainer > div{
+    margin-top: 5rem;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 1rem;
+}
+
+.blogsContainer > button{
+    border: 2px solid #5e48f6;
+    margin-top: 5rem;
+    color: #5e48f6;
+    padding: 1rem 2rem;
+    background-color: white;
+    outline: none;
+    font-size: .9rem;
+    font-weight: lighter;
+    align-self: center;
+}

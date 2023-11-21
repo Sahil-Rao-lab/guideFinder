@@ -1,0 +1,66 @@
+
+.container{
+    padding: 6rem;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container > a{
+    border: 1px solid #5e48f6;
+    margin-top: 5rem;
+    background-color: #5e48f6;
+    color: white;
+    font-size: .9rem;
+    padding: 1rem 2rem;
+}
+
+.mainTitle{
+    color: #5e48f6;
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+.blogBox{
+    padding: 1rem 1rem 2rem 1rem;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.blogs{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 1rem;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+.blogBox > .img{
+    background-color: gray;
+    height: 15rem;
+    margin-bottom: 1rem;
+    background: url(https://cdn.pixabay.com/photo/2023/10/30/16/54/sew-8353303_1280.jpg) no-repeat center center/cover;
+}
+
+.blogBox > .title{
+    color: #111;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.blogBox > .description{
+    color: gray;
+    line-height: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.blogBox > a{
+    border: 1px solid #5e48f6;
+    color: white;
+    background-color: #5e48f6;
+    padding: .5rem 1rem;
+    font-size: .9rem;
+}

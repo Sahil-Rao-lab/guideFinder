@@ -1,0 +1,47 @@
+.Container{
+    padding: 6rem;
+    background-color: white;
+}
+.h2 {
+    color: #111;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.h3 {
+    color: #111;
+    margin-bottom: 1rem;
+}
+
+.p {
+    color: #333; /* Gray color for paragraphs */
+    line-height: 1.5;
+    margin-bottom: .5rem;
+}
+
+.a {
+    color: #5e48f6;
+    text-decoration: none;
+}
+
+.a:hover {
+    text-decoration: underline;
+}
+
+
+.bg_txt {
+    background-image: url(https://images.pexels.com/photos/680811/pexels-photo-680811.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-repeat: repeat;
+    background-attachment: fixed;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+    -webkit-font-smoothing: antialiased;
+    font-size: 7rem;
+}
+
+.small_txt {
+    color: #5e48f6;
+    font-size: .8rem;
+    font-weight: 100;
+}

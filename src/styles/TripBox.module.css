@@ -1,0 +1,94 @@
+.tripBoxContainer {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border-radius: 15px;
+    background-color: white;
+    padding: 1rem;
+    max-width: 30rem;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.days{
+    display: flex;
+    flex-direction: column;
+}
+
+.line{
+    font-size: .8rem;
+    color: gray;
+    position: relative;
+    align-self: flex-start;
+    margin-bottom: 2rem;
+    margin-top: .2rem;
+}
+
+
+.line::after{
+    content: "";
+    position: absolute;
+    bottom: -.8rem;
+    left: 0;
+    right: 0;
+    background-color: #5B38F6;
+    height: 3px;
+}
+
+.with{
+    margin-bottom: 1rem;
+    display: flex;
+    grid-gap: 5px;
+    align-items: center;
+}
+
+.with > span{
+    font-size: .8rem;
+    color: gray;
+}
+
+.with > a{
+    text-decoration: underline;
+    font-size: .9rem;
+    color: #5B38F6;
+}
+
+.title{
+    font-size: 1rem;
+    /* font-weight: bolder; */
+    letter-spacing: 1px;
+    margin-bottom: 1rem;
+    color: #111;
+    line-height: 1.5rem;
+}
+
+.image{
+    background-color: gray;
+    height: 20rem;
+    border-radius: 5px;
+    margin-bottom: 2rem;
+    background: url(https://images.unsplash.com/photo-1677051404804-5b099c936c59?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.tripBoxContainer > a{
+    border-radius: 5px;
+    text-align: center;
+    padding: .8rem 1rem;
+    font-size: .9rem;
+    background-color: #5B38F6;
+    color: white;
+}
+
+.date{
+    font-size: .9rem;
+    margin-bottom: 1rem;
+    color: gray;
+}
+
+.tripBoxContainer > i{
+    position: absolute;
+    right: 1rem;
+}
